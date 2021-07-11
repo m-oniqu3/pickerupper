@@ -1,0 +1,168 @@
+.searchtext{
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.search{
+    width: 60%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.butsearch{
+    padding: 10px ;
+    border: none;
+    border-radius: 10px;
+    background-color: #e4ab82;
+    color: white;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+content{
+    width: 95%;
+    height: 170vh;
+    
+    padding: 10px;
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.servicelist {
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+   
+}
+
+.servicelist li{
+    font-size: 1.2em;
+    color:#F88017;
+    line-height: 190%;
+}
+
+.servicelist li:hover{
+    color: #D05800;
+}
+
+leftcontent{
+    width: 20%;
+    height: 70vh;
+    background-color: white;
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+leftcontent p{
+    font-size: 2.5em;
+    color: rgb(250, 88, 29);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+rightcontent{
+    width: 70%;
+    height: 150vh;
+    background-color: white;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    
+}
+
+rightcontent .row{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 10px;
+    justify-content: space-around;
+}
+.servicerow{
+    width: 100%;
+    height: 35vh;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #888888;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+
+.lservice{
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px 10px 0px 0px;
+    display: inline-block;
+    margin: auto;
+    /*background: url(/images/help3.jfif) no-repeat center; */
+    background-size: cover;
+    
+}
+
+.rservice{
+    width: 100%;
+    height: 10vh;
+    background-color:whitesmoke;
+    border-radius: 0px 0px 10px 10px;
+    display: inline-block;
+  
+}
+
+.rservice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: coral;
+}
+
+#s1{
+    background: url(/images/help1.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+#s2{
+    background: url(/images/help3.jfif) no-repeat center; 
+    background-size: cover;
+}
+
+#s3{
+    background: url(/images/help2.jpg) no-repeat center; 
+    background-size: cover;
+}
+/*
+.container{
+    width: 300px;
+    height: 210px;
+    border: solid 2px green;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, green, 15%, antiquewhite 15%);
+  }
+  
+  .con{
+    height: 20%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }*/
