@@ -1,0 +1,343 @@
+main{
+    height: 69vh;
+    padding: 10px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainleft{
+    width: 37%;
+    height: 60vh;
+    
+    margin-top: 35px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: left;
+
+}
+
+.fa{
+    color: #178FF8;
+}
+maintext{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mainleft p{
+    font-size: 2em;
+    color: #178FF8;
+    margin-bottom: 10px;
+    font-family:  Proxima, Arial, Helvetica, sans-serif;
+}
+
+.mainleft span{
+    font-family: Proxima, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242a30;
+    
+}
+
+.mainleft ul{
+    margin-top: 20px;
+    text-align: start;
+    font-family:Proxima, Arial, Helvetica, sans-serif; 
+    padding-left: 0;
+}
+.mainleft li{
+    list-style: none;
+    font-size: 1.2em;
+    color:#242a30;
+    line-height: 200%;
+}
+.mainright{
+    width: 53%;
+    height: 60vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    
+}
+
+.start{
+    font-size: 2em;
+    color:#f36c0b;
+    
+    font-family:  Proxima, Arial, Helvetica, sans-serif;
+}
+
+.mainright .row{
+    display: grid;
+    grid-template-columns:40% 50% ;
+    justify-content: space-around;
+    align-items: center;
+}
+.servicerow{
+    width: 100%;
+    height: 35vh;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #888888;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+
+.lservice{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    display: inline-block;
+    margin: auto;
+    /*background: url(/images/help3.jfif) no-repeat center; */
+    background-size: cover;
+    
+}
+
+
+#s1{
+    background: url(/images/help4.jpg) no-repeat center; 
+    background-size: cover;
+    height: 45vh;
+}
+
+#s2{
+    background: url(/images/help6.jpg) no-repeat center; 
+    background-size: cover;
+    height: 58vh;
+}
+
+#sr1{
+    height: 45vh; 
+}
+
+#sr2{
+    height: 58vh; 
+}
+
+#s3{
+    background: url(/images/choose.png) no-repeat center; 
+    background-size: cover;
+    height: 65vh;
+    
+}
+
+#sr3{
+    height: 65vh; 
+    width: 50vw;
+}
+
+.projects{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 2%;
+   
+}
+
+.projects p{
+    font-size: 2em;
+    color:#f36c0b;
+   
+    margin-bottom: 15px;
+    font-family:  Proxima, Arial, Helvetica, sans-serif;
+}
+
+.projects .row{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.projectbox{
+    width: 100%;
+    height: 45vh;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px  #888888;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 3%;
+        
+}
+
+.projpic{
+    width: 100%;
+    height: 38vh;
+    border-radius: 10px 10px 0px 0px;
+    display: inline-block;
+    margin: auto;
+    /*background: url(/images/help3.jfif) no-repeat center; */
+    background-size: cover;
+}
+
+.projtext{
+    width: 100%;
+    height: 8vh;
+    background-color:rgb(247, 141, 102);
+    border-radius: 0px 0px 10px 10px;
+    display: inline-block;
+  
+}
+
+.projtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:white;
+}
+
+#p1{
+    background: url(/images/p3.jpg) no-repeat ; 
+    background-size: cover;
+}
+
+#p2{
+    background: url(/images/p2.jpg) no-repeat ; 
+    background-size: cover;
+}
+
+#p3{
+    background: url(/images/p1.jpg) no-repeat ; 
+    background-size: cover;
+}
+
+.card{
+    width: 100%;
+    height: 10vh;
+    background-color:#f36c0b ;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 3px 3px  #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: Proxima, Arial, Helvetica, sans-serif;
+    color:white;
+    margin-bottom: 3%;
+}
+
+
+
+.info .row{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding: 10px;
+    justify-content: space-around; 
+    margin-bottom: 5%;
+   
+
+}
+
+.info{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.infobox{
+    width: 100%;
+    height: 65vh;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    overflow: hidden;
+        
+}
+
+.infojpic{
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px 10px 0px 0px;
+    display: inline-block;
+    margin: auto;
+    /*background: url(/images/help3.jfif) no-repeat center; */
+    background-size: cover;
+}
+
+.infotext{
+    width: 100%;
+    height: 25vh;
+    background-color:aliceblue;
+    border-radius: 0px 0px 10px 10px;
+    display: inline-block;
+  
+}
+
+.infotext name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#f88017;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.infotext spann{
+    display: flex;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#178FF8;
+    margin-top: 10px;
+    padding: 13px;
+    line-height: 135%;
+    
+}
+
+.info infotitle{
+    font-size: 2em;
+    color: #f88017;
+    margin-bottom: 10px;
+    font-family:  Proxima, Arial, Helvetica, sans-serif;
+    padding: 12px;
+    margin-left: 14px;;
+    
+}
+#search{
+    background: url(/images/search.png) no-repeat center; 
+    background-size: cover;
+    height: 40vh;
+}
+
+#talk{
+    background: url(/images/talk.png) no-repeat center; 
+    background-size: cover;
+    height: 40vh;
+}
+
+#time{
+    background: url(/images/time.png) no-repeat center; 
+    background-size: cover;
+    height: 40vh;
+}
+#pay{
+    background: url(/images/pay.png) no-repeat center; 
+    background-size: cover;
+    height: 40vh;
+}
+
+.test{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='233' preserveAspectRatio='none' viewBox='0 0 1440 233'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1532%26quot%3b)' fill='none'%3e%3crect width='1440' height='233' x='0' y='0' fill='rgba(7%2c 170%2c 237%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c152 C 96%2c139.2 288%2c94.8 480%2c88 C 672%2c81.2 768%2c117.8 960%2c118 C 1152%2c118.2 1344%2c94.8 1440%2c89L1440 233L0 233z' fill='rgba(254%2c 254%2c 254%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1532'%3e%3crect width='1440' height='93' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    height: 70vh;
+    background-size: cover;
+}

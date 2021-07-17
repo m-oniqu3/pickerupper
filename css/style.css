@@ -11,9 +11,9 @@ header{
   
 }
 .ground{
-    background: url(/images/help1.jpg) no-repeat center; 
+    background: url(/images/help5.jpg) no-repeat  ; 
     background-size: cover;
-    height: 99vh;    }
+    height: 70vh;    }
 
 .serviceground{
     background: url(/images/help5.jpg) no-repeat;
@@ -50,7 +50,7 @@ li, a, button{
     padding: 10px 35px;
     border: none;
     border-radius: 50px;
-    background-color: #D05800;
+    background-color: #178FF8;
     color: white;
     
 }
